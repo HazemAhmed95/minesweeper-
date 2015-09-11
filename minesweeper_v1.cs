@@ -14,7 +14,7 @@ namespace mineswapers
           int Row = int.Parse(Console.ReadLine());
             int Coll = int.Parse(Console.ReadLine());
 
-          char[,] array2 = new char[Row, Coll];
+        
             char[,] array = new char[Row, Coll];
             //set all of the map as unrevealed 
 
