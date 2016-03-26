@@ -13,7 +13,7 @@ namespace mineswapers
             Console.WriteLine("welcome to the game \n choose your grid size :) : ");
           int Row = int.Parse(Console.ReadLine());
             int Coll = int.Parse(Console.ReadLine());
-
+            Console.WriteLine( "omak");
         
             char[,] array = new char[Row, Coll];
             //set all of the map as unrevealed 
