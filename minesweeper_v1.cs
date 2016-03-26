@@ -26,7 +26,7 @@ namespace mineswapers
                     array2[i, j] = '-';
                 }
             }
-
+		Console.WriteLine("Kosomk");
             //set bombs 
             Console.WriteLine(" enter the boombs number and locations");
             int bombs_number = int.Parse(Console.ReadLine());
